@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    text-decoration: underline;
+}
+
+/* bannière */
+
+.bannière{
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    height: 300px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+}
+
+.contenu {
+    padding: 50px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+/* Section services */
+
+.services{
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 30px 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.service{
+    display: flex;
+    gap: 25px;
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+}
+
+.cercle-image{
+    width: 155px;
+    height: 155px;
+    border-radius: 200px;
+    background-color: gray;
+    margin: auto;
+}
+
+h3{
+    padding: 20px 5px;
+}
+
+/* À propos */
+
+.a-propos{
+    padding: 30px;
+}
+
+.a-propos h2{
+    padding: 30px 0px;
+}
+
+.colonnes{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+}
+
+.paragraphe{
+    width: 50%;
+    padding: 0px 10px;
+}
+
+.paragraphe p{
+    text-align: justify;
+}
