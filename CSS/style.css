@@ -2,36 +2,29 @@
     margin: 0;
 }
 
-header{
+.header{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
     width: 80%;
     margin: auto;
+    padding: 20px;
 }
 
-header nav ul{
+.header nav ul{
     display: flex;
     list-style-type: none;
-    gap: 15px;
+    gap: 10px;
 }
 
-.nav-links a{
-    text-decoration: none;
+.nav-link{
     color: black;
-}
-
-.logo{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* bannière */
 
 .bannière{
-    border-top: 1px solid;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
+    border: 1px solid;
     height: 300px;
     display: flex;
     width: 90%;
@@ -39,14 +32,13 @@ header nav ul{
     margin: auto;
 }
 
-.contenu {
+.contenu{
     padding: 50px;
 }
 
-h1{
+.contenu h1{
     padding-bottom: 20px;
 }
-
 /* Section services */
 
 .services{
@@ -87,7 +79,7 @@ h3{
 }
 
 .a-propos h2{
-    padding: 30px 0px;
+    padding: 30px;
 }
 
 .colonnes{
@@ -105,3 +97,29 @@ h3{
 .paragraphe p{
     text-align: justify;
 }
+/* NOS CONTACTS */
+.nos-contacts{
+    width: 80%;
+    margin: auto;
+}
+.a-links{
+    text-decoration: none;
+}
+
+.nos-contacts{
+    padding-bottom: 150px;
+}
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+    background-color: #d0cec8;
+}
+
+.footer-text{
+    font-family: "Poppins", sans-serif;
+}
+

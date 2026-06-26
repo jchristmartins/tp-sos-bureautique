@@ -11,20 +11,25 @@
      <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
+    <!-- EN-TETE/HEADER -->
+    <header class="header">
+        <!-- LOGO SOS -->
         <a href="#" class="logo">
             <img src="images/--" alt="LOGO SOS BUREAUTIQUE">
         </a>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#services">Services</a></li>
-                <li><a href="#a-propos">À propos</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+
+        <!-- NAVIGATION -->
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#a-propos" class="nav-link">À propos</a></li>
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
             </ul>
         </nav>
     </header>
     
     <!-- bannière -->
+
     <section class="bannière">
         <div class="contenu">
             <h1>Conseils. Équipements.<br>Services</h1>
@@ -89,15 +94,33 @@
 
     <!-- Nos contact -->
 
-    <section class="nos-contacts" id="Contacts">
+    <section class="nos-contacts" id="contacts">
         <h2>Nos contacts</h2>
-         <section>
-         <div>
-            <h3>Teléphone</h3>
-            <a href="#">(+229) 97 97 90 91</a>
-            <br><a href="#">(+229) 90 94 00 23</a>
-            <br><a href="#">(+229) 92 89 70 78</a>
-         </div>
+        <div class="colonnes">
+            <div>
+                <h3>Teléphone</h3>
+                <a href="#" class="a-links">(+229) 97 97 90 91</a>
+                <br><a href="#" class="a-links">(+229) 90 94 00 23</a>
+                <br><a href="#" class="a-links">(+229) 92 89 70 78</a>
+            </div>
+
+            <div>
+                <h3>Adresse</h3>
+                <a href="#" class="a-links">Saint Jean</a>
+            </div>
+
+            <div>
+                <h3>Email</h3>
+                <a href="#" class="a-links">contact@sosbureautique.com</a>
+            </div>
+        </div>
     </section>
+
+    <!-- FOOTER -->
+     <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">© 2023 SOS BUREAUTIQUE – Tous les droits réservés.</p>
+        </div>
+     </footer>
 </body>
 </html>
